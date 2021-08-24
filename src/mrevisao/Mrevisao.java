@@ -79,18 +79,17 @@ public class Mrevisao {
             System.out.println("Posição: " + i + " | Valor: " + vet[i]);
 
         }
-        System.out.println("ArrayList");
+        System.out.println("impressão de ArrayList 1");
         for (int i = 0; i < valores.size(); i++) {
-            System.out.println("Posição: " + i + " | Valor: " + valores.get(i));
+        System.out.println("Posição: " + i + " | Valor: " + valores.get(i));
         }
         System.out.println("impressão de ArrayList 2");
-
         valores.forEach((i) -> System.out.println(i));
 
         System.out.println("impressão de ArraList 3");
         valores.forEach(_item -> {
 
-            System.out.println("Valor: " + valores.toString());
+          System.out.println("Valor: " + valores.toString());
         });
 
         
